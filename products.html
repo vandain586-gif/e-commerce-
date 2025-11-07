@@ -1,0 +1,129 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="ecommerce.css">
+      <style>
+          .foot ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  .foot li {
+    font-size: 18px;
+    font-weight: normal;
+    padding: 15px;
+  }
+  .foot a {
+    text-decoration: none;
+    color: gray;   /* simple gray text */
+  }
+
+  /* 🚫 REMOVE hover from footer */
+  .foot ul li:hover a {
+    background: none;
+    color: gray;
+    transform: none;
+    transition: none;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  h1{ color: orange;}
+  .slider{
+      width: 100%;
+      height: auto ;
+      overflow: hidden;
+    }
+    .slider img{
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .premiumproducts{
+      display: flex;
+      justify-content: space-evenly;
+      margin-bottom: 50px;
+    }
+  .premiumpro{
+      border: 1px solid orange;
+      padding: 10px;
+      text-align: center;
+      width: 30%;
+      height: auto;
+      box-shadow: 0 2px 5px gray;
+      opacity: 0.9;
+      border-radius: 5px;
+      transition: transform 0.4s;
+  }
+  .premiumpro:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 4px 10px gray;
+      opacity: 1;
+  }
+  .premiumproimg{
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+  }
+  .container2{
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+  }
+      </style>
+  </head>
+  <body>
+    <div class="container2">
+                  <header>
+          <div class="logo"> <img src="12.jpg" alt="width=100px" height="100px"></div>
+          <div class="header">
+          <nav>
+              <ul>
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="products.html">Products</a></li>
+                  <li><a href="services.html">services</a></li>
+                  <li><a href="category.html">category</a></li>
+              </ul>
+          </nav>
+          </div>
+      </header>
+      <div class="container2">
+        <h1>"Designed to make you feel confident every day".</h1>
+        <div class="slider"><img src="productslider.jpg" alt=" products width=100%" height="auto"></div>
+        <br><br>
+        <h1>premium qulity products</h1>
+        <hr>
+        <br>
+        <div class="premiumproducts">
+      <div class="premiumpro"><a href="category.html"><img src="por pre1.1.jpg" alt="width=100%" height="400px"></a></div>
+        <div class="premiumpro"><a href="category.html"><img src="per pro2.jpg" alt="width=100%" height="400px"></a></div>
+          <div class="premiumpro"><a href="category.html"><img src="per pro3.jpg" alt="width=100%" height="400px"></a></div>
+        </div>
+      </div>
+      </div>
+      <hr>
+        <footer>
+    <div class="foot">
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="category.html">category</a></li>
+        </ul>
+      </nav>
+      <h3>About Us</h3>
+      <p>We deal in all kinds of garments</p>
+      <h4>Follow us</h4>
+      <p>Facebook | Twitter | Instagram</p>
+      <p>&copy; 2024 Ecommerce Website</p>
+    </div>
+  </footer>
+      </div> 
+  </body>
+  </html>

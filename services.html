@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ecommerce.css">
+    <style>
+        .foot ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.foot li {
+  font-size: 18px;
+  font-weight: normal;
+  padding: 15px;
+}
+.foot a {
+  text-decoration: none;
+  color: gray;   /* simple gray text */
+}
+
+/* 🚫 REMOVE hover from footer */
+.foot ul li:hover a {
+  background: none;
+  color: gray;
+  transform: none;
+  transition: none;
+  padding: 0;
+  border-radius: 0;
+}
+h1{ color: orange; text-align: center; margin-top: 50px;}
+.slider{
+    width: 100%;
+    height: auto ;  
+    overflow: hidden;}
+.slider img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;}
+.services{
+    display: flex; 
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+} 
+.serv{
+    border: 1px solid orange;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    height: 400px;
+    box-shadow: 0 2px 5px gray;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+.serv h2{
+    color: orange;
+    margin: 10px 0;
+  }
+.serv p{
+    font-size: 18px;
+    color: gray;      
+    line-height: 1.5;
+    text-align: justify;
+    margin: 0 20px;}
+.services :hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px gray;
+    opacity: 1;
+}
+.btn{
+    background-color: orange; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 42%;
+}
+    </style>
+</head>
+<body>
+    <div class="container4">
+                <header>
+       <div class="logo"> <img src="12.jpg" alt="width=100px" height="100px"></div>
+        <div class="header">
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="services.html">services</a></li>
+                <li><a href="category.html">category</a></li>
+            </ul>
+        </nav>
+    </header>
+    </div>
+    <h1>“Because great products deserve great service.”</h1>
+    <br>
+    <br>
+    <div class="slider"> <img src="seviceslider1.1.jpg" alt="welcome to store width=100% height=auto"></div>
+    <br>
+    <br>
+    <h1>Our Services</h1>
+    <hr>
+    <br>
+    <div class="services">
+        <div class="serv">
+          <img src="service1.png" alt="width=100%" height="400px">
+            <h2>Free Shipping</h2>
+            <p>We offer free shipping on all orders over $50. Enjoy fast and reliable delivery to your doorstep.</p></div>
+        <div class="serv">
+          <img src="service2.png" alt="width=100%" height="400px">
+            <h2>24/7 Customer Support</h2>
+            <p>Our dedicated support team is available around the clock to assist you with any inquiries or issues.</p></div>
+        <div class="serv">
+          <img src="service3.jpg" alt="width=100%" height="400px">
+            <h2>Easy Returns</h2>
+            <p>Not satisfied with your purchase? We offer hassle-free returns within 30 days of delivery.</p></div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <a href="ecommerce.html">
+    <button class="btn">back to home</button>
+    </a>
+    <br>
+    <hr>
+    <br>
+    <br>  
+    <footer>
+  <div class="foot">
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="category.html">category</a></li>
+      </ul>
+    </nav>
+    <h3>About Us</h3>
+    <p>We deal in all kinds of garments</p>
+    <h4>Follow us</h4>
+    <p>Facebook | Twitter | Instagram</p>
+    <p>&copy; 2024 Ecommerce Website</p>
+  </div>
+</footer> 
+ </div>
+</body>
+</html>
